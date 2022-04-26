@@ -37,7 +37,7 @@ export default function Home({ collections }: Props) {
 						transition-all duration-200 hover:scale-105 '>
 								<img
 									className='h-96 w-60 rounded-2xl object-cover'
-									src={urlFor(collection.previewImage).url()}
+									src={urlFor(collection.mainImage).url()}
 									alt='cannot resolve'
 								/>
 								<div>
