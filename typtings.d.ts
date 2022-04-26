@@ -26,6 +26,7 @@ export interface Collection {
 	slug: {
 		current: string
 	}
+	previewImage: Image
 	creator: Creator
 	mainImage: Image
 	preview: Image
